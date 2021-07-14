@@ -1,0 +1,154 @@
+body
+{
+    background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+    text-align:center ;
+}
+header
+{
+    width: 100%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.603);
+    text-align: center;
+    position: fixed;
+    top: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main
+{
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-top: 350px;
+}
+.bigdiv
+{
+    width: 100%;
+}
+.imagdiv
+{
+    width: calc(100% - 20px);
+    display: inline-block;
+    box-shadow: 0 0 20px white;
+    border-radius: 20px;
+    margin: 10px;
+}
+img
+{
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+    margin: auto;
+    display: block;
+}
+.image
+{
+    width: 100%;
+
+}
+.imagtext
+{
+    color: white;
+    margin: 10px;
+}
+form
+{
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+input[type=text]
+{
+    width: 50%;
+    background: transparent;
+    border-radius: 5px;
+    box-shadow: 0 0 10px white;
+    color: white;
+}
+input[type=submit]
+{
+    width: 30%;
+    border-radius: 5px;
+    background: transparent;
+    box-shadow: 0 0 10px white;
+    color: white;
+}
+.footer1
+{
+    width: 100%;
+    text-align: left;
+}
+footer
+{
+    margin: 30px;
+    
+}
+footer ul li
+{
+    line-height: 50px;
+    font-size: 25px;
+    list-style: none;
+}
+footer h2
+{
+    text-align: center;
+}
+@media (min-width: 480px)
+{
+    .headerdiv h3
+    {
+        display: inline;
+        line-height: 50px;
+        margin: 50px;
+    }
+    .imagdiv
+    {
+        width:45%;
+    }
+    .image{
+        width: 100%;
+        margin: auto;
+    }
+    .img
+    {
+        width: 100%;
+        margin: auto;
+    }
+   ul li
+   {
+       margin-left: 240px ;
+   }
+}
+@media (min-width: 1024px)
+{
+    .headerdiv h3
+    {
+        display: inline;
+        line-height: 50px;
+        margin: 120px;
+    }
+    .imagdiv
+    {
+        width: 30%
+    }
+    ul li
+    {
+        margin-left: 365px ;
+    }
+    input[type=text]
+    {
+    width: 30%;
+    background: transparent;
+    border-radius: 5px;
+    box-shadow: 0 0 10px white;
+    color: white;
+    }
+    input[type=submit]
+    {
+    width: 20%;
+    border-radius: 5px;
+    background: transparent;
+    box-shadow: 0 0 10px white;
+    color: white;
+    }
+}
